@@ -8,7 +8,8 @@ public class LambdaInCollectionExample {
     public static void main(String[] args) {
         List<Customer> customers = Arrays.asList(
                 new Customer(1, "David", 1000.0),
-                new Customer(2, "Mike", 2000.0));
+                new Customer(2, "Mike", 2000.0)
+        );
 
         System.out.println("\nLambda in Collection Example");
 

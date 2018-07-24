@@ -3,7 +3,6 @@ package com.laxtech;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class LambdaBuiltInInterfaceSimpleExample {
@@ -11,7 +10,8 @@ public class LambdaBuiltInInterfaceSimpleExample {
     public static void main(String[] args) {
         List<Customer> customers = Arrays.asList(
                 new Customer(1, "David", 1000.0),
-                new Customer(2, "Mike", 2000.0));
+                new Customer(2, "Mike", 2000.0)
+        );
         double limit = 1500;
 
 

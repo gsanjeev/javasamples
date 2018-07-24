@@ -11,7 +11,8 @@ public class LambdaMethodReferenceExample {
     public static void main(String[] args) {
         List<Customer> customers = Arrays.asList(
                 new Customer(1, "David", 1000.0),
-                new Customer(2, "Mike", 2000.0));
+                new Customer(2, "Mike", 2000.0)
+        );
 
         Thread t1 = new Thread(() -> greeting()); //Greeting using lambda expression
         t1.start();

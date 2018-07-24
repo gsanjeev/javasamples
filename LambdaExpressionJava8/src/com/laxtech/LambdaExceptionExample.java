@@ -8,7 +8,8 @@ public class LambdaExceptionExample {
     public static void main(String[] arg) {
         List<Customer> customers = Arrays.asList(
                 new Customer(1, "David", 1000.0),
-                new Customer(2, "Mike", 2000.0));
+                new Customer(2, "Mike", 2000.0)
+        );
         String increamentCreditLimit = "25";
         increaseLimit(customers, increamentCreditLimit, wrapperLambda((i, l) -> System.out.println("increased cedit limit is:" + l *(100+Integer.parseInt(i))/100)));
     }
