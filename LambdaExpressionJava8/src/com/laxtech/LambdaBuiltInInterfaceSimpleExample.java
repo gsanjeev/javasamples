@@ -14,9 +14,7 @@ public class LambdaBuiltInInterfaceSimpleExample {
         );
         double limit = 1500;
 
-
         Collections.sort(customers, (c1, c2) -> c1.getName().compareTo(c2.getName())); // sort customer by name
-
 
         System.out.println("\nAll customer");
         System.out.println("------------------------------------------------------------------------");
