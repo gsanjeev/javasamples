@@ -1,0 +1,3 @@
+module course {
+    requires teacher;
+}

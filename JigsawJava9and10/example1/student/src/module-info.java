@@ -1,5 +1,5 @@
 module student {
-    requires java.base;
+    requires java.xml;
     requires course;
     requires teacher;
     exports com.laxtech.student.controller;
