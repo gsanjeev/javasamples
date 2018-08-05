@@ -1,0 +1,3 @@
+module-info.class
+com\laxtech\service\spi\StudentServiceInterface.class
+com\laxtech\service\StudentServiceLoader.class

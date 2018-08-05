@@ -11,6 +11,10 @@
     <modules>
         <module>course</module>
         <module>teacher</module>
+        <module>service</module>
+        <module>studentprovider1</module>
+        <module>serviceconsumer</module>
+        <module>studentprovider2</module>
     </modules>
 
     <properties>
